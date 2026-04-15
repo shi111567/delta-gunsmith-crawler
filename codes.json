@@ -1,37 +1,261 @@
 [
   {
-    "name": "M4A1 高稳突击",
-    "weapon": "M4A1",
-    "class": "突击",
-    "attachments": "垂直握把 + 消音器 + 红点",
-    "code": "M4A1-烽火地带-6IUKUN40FGIGGAT87VQQ3"
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IBFAUS0BAC7RIM3B0293"
   },
   {
-    "name": "AKM 暴力输出",
-    "weapon": "AKM",
-    "class": "突击",
-    "attachments": "补偿器 + 轻机枪托 + 全息",
-    "code": "AKM-烽火地带-7JVLKP50GHKPH2BT98WR4"
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IMVH0C0B0GKDDOTE9T6Q"
   },
   {
-    "name": "Vector 近战速射",
-    "weapon": "Vector",
-    "class": "侦察",
-    "attachments": "激光 + 扩容弹匣 + 消音",
-    "code": "VECTOR-烽火地带-3LJSND72KSL92JD7G3H4"
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IBF95S0BAC7RIM3B0293"
   },
   {
-    "name": "AWM 狙击精英",
-    "weapon": "AWM",
-    "class": "侦察",
-    "attachments": "高倍镜 + 消音器 + 托腮板",
-    "code": "AWM-烽火地带-8KTMVQ61HLQN3CU9ZR5"
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IMVF7O0B0GKDDOTE9T6Q"
   },
   {
-    "name": "P90 冲锋陷阵",
-    "weapon": "P90",
-    "class": "突击",
-    "attachments": "红点 + 扩容弹匣 + 消音器",
-    "code": "P90-烽火地带-2GJQW83FJ4KSL92JD7G3H4"
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IBFBRO0BAC7RIM3B0293"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IBFANO0BAC7RIM3B0293"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6IBFBIK0BAC7RIM3B0293"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6J2PET40FP8PKANEBHTBM"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6H3ECPS049H3TLFDHMKHOM249"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6J2PFG40FP8PKANEBHTBM"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6J2Q7Q40FP8PKANEBHTBMSG552"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6HTB9FK0EFBG7BQMQVSON"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6J2PEGO0FP8PKANEBHTBMAK12"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAQQO02U9HU6AC38CQJ15"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIBCOC02U9HU6AC38CQJ23"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAN5K02U9HU6AC38CQJ10"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIBDN802U9HU6AC38CQJ24"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAKVC02U9HU6AC38CQJ3"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAVVS02U9HU6AC38CQJ20"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAL5002U9HU6AC38CQJ5"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAL9C02U9HU6AC38CQJ7"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EH17F402U9HU6AC38CQJ21"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAKTC02U9HU6AC38CQJ2"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIALPC02U9HU6AC38CQJ9"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIALBS02U9HU6AC38CQJ8"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAL7C02U9HU6AC38CQJ6"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIANV002U9HU6AC38CQJ11"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAREK02U9HU6AC38CQJ16"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAPD802U9HU6AC38CQJ13"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIBB2C02U9HU6AC38CQJ22"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAQ5O02U9HU6AC38CQJ14"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAL2G02U9HU6AC38CQJ4"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAV5802U9HU6AC38CQJ19"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAOLG02U9HU6AC38CQJ12"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIAUAK02U9HU6AC38CQJ18"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIBEK802U9HU6AC38CQJ"
+  },
+  {
+    "name": "网络热门配装",
+    "weapon": "自动识别",
+    "class": "全能",
+    "attachments": "全网实时热门改枪码",
+    "code": "6EIATGS02U9HU6AC38CQJ17"
   }
 ]
