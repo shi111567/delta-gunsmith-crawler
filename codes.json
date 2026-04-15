@@ -1,0 +1,37 @@
+[
+  {
+    "name": "M4A1 高稳突击",
+    "weapon": "M4A1",
+    "class": "突击",
+    "attachments": "垂直握把 + 消音器 + 红点",
+    "code": "M4A1-烽火地带-6IUKUN40FGIGGAT87VQQ3"
+  },
+  {
+    "name": "AKM 暴力输出",
+    "weapon": "AKM",
+    "class": "突击",
+    "attachments": "补偿器 + 轻机枪托 + 全息",
+    "code": "AKM-烽火地带-7JVLKP50GHKPH2BT98WR4"
+  },
+  {
+    "name": "Vector 近战速射",
+    "weapon": "Vector",
+    "class": "侦察",
+    "attachments": "激光 + 扩容弹匣 + 消音",
+    "code": "VECTOR-烽火地带-3LJSND72KSL92JD7G3H4"
+  },
+  {
+    "name": "AWM 狙击精英",
+    "weapon": "AWM",
+    "class": "侦察",
+    "attachments": "高倍镜 + 消音器 + 托腮板",
+    "code": "AWM-烽火地带-8KTMVQ61HLQN3CU9ZR5"
+  },
+  {
+    "name": "P90 冲锋陷阵",
+    "weapon": "P90",
+    "class": "突击",
+    "attachments": "红点 + 扩容弹匣 + 消音器",
+    "code": "P90-烽火地带-2GJQW83FJ4KSL92JD7G3H4"
+  }
+]
