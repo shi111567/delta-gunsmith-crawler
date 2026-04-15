@@ -1,32 +1,76 @@
 import { createClient } from '@supabase/supabase-js';
 import { chromium } from 'playwright';
 
-const SUPABASE_URL = 'https://opseuwrzcnsdrsizhyel.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_Pz0ndHiDt50G0nSU_ZHjxA_wcYzu1ez';
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-// 三角洲行动改枪码常见格式：类似 "M4A1-烽火地带-6IUKUN40FGIGGAT87VQQ3"
+// 改枪码正则（三角洲行动常见格式）
 const CODE_REGEX = /([A-Z0-9]{6,}-[A-Z0-9]{6,}-[A-Z0-9]{15,})/gi;
 
-async function crawlYoumin() {
-  console.log('🕷️ 开始爬取游民星空改枪码...');
+async function crawlNGA() {
+  console.log('🕷️ 开始爬取 NGA 三角洲行动板块...');
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
+  
   try {
-    // 游民星空三角洲行动圈子
-    await page.goto('https://club.gamersky.com/forum/1736', { timeout: 30000 });
-    await page.waitForTimeout(5000);
+    // NGA 三角洲行动板块，按发帖时间排序
+    await page.goto('https://nga.178.com/thread.php?fid=803&order_by=postdatedesc', { 
+      timeout: 30000,
+      waitUntil: 'domcontentloaded' 
+    });
+    await page.waitForTimeout(3000);
     
-    // 获取页面全部文本
-    const pageText = await page.evaluate(() => document.body.innerText);
-    const matches = pageText.match(CODE_REGEX) || [];
-    const uniqueCodes = [...new Set(matches)];
-    console.log(`✅ 发现 ${uniqueCodes.length} 个改枪码`);
+    // 获取前5个帖子的链接
+    const postLinks = await page.evaluate(() => {
+      const links = [];
+      document.querySelectorAll('tbody .topic a').forEach(a => {
+        if (a.href && a.href.includes('read.php')) links.push(a.href);
+      });
+      return links.slice(0, 5);
+    });
     
-    for (const code of uniqueCodes) {
+    console.log(`📌 找到 ${postLinks.length} 个帖子，开始逐个提取...`);
+    const allCodes = [];
+    
+    for (const link of postLinks) {
+      try {
+        await page.goto(link, { timeout: 15000, waitUntil: 'domcontentloaded' });
+        await page.waitForTimeout(2000);
+        
+        // 获取帖子标题和正文
+        const content = await page.evaluate(() => {
+          const title = document.querySelector('#postsubject0')?.innerText || '';
+          const body = document.querySelector('#postcontent0')?.innerText || '';
+          return { title, body };
+        });
+        
+        // 合并文本提取改枪码
+        const text = content.title + ' ' + content.body;
+        const matches = text.match(CODE_REGEX) || [];
+        matches.forEach(code => allCodes.push({ 
+          code, 
+          weapon_name: content.title.substring(0, 30) || '热门配装',
+          source_site: 'NGA',
+          source_url: link
+        }));
+        
+        console.log(`   └─ ${link} 提取到 ${matches.length} 个码`);
+      } catch (e) {
+        console.warn(`   └─ 帖子 ${link} 访问失败: ${e.message}`);
+      }
+    }
+    
+    // 去重后存入数据库
+    const uniqueCodes = Array.from(new Map(allCodes.map(c => [c.code, c])).values());
+    console.log(`✅ 共提取 ${uniqueCodes.length} 个改枪码`);
+    
+    for (const item of uniqueCodes) {
       await supabase.from('gunsmith_codes').upsert({
-        code: code,
-        source_site: '游民星空',
+        code: item.code,
+        weapon_name: item.weapon_name,
+        attachments: '热门推荐',
+        source_site: item.source_site,
         fetched_at: new Date().toISOString()
       }, { onConflict: 'code' });
     }
@@ -38,9 +82,9 @@ async function crawlYoumin() {
 }
 
 async function main() {
-  console.log('🚀 开始执行爬虫...');
-  await crawlYoumin();
-  console.log('🎉 完成！');
+  console.log('🚀 开始执行 NGA 改枪码爬虫...');
+  await crawlNGA();
+  console.log('🎉 任务完成！');
 }
 
 main();
