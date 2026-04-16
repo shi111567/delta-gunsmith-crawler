@@ -204,13 +204,25 @@ def fetch_all_codes():
                     
                     weapon_class = get_weapon_class(weapon_name)
                     
-                    all_codes.append({
-                        "name": f"{weapon_name} 热门配装" if weapon_name != "未知枪械" else "网络热门方案",
-                        "weapon": weapon_name,
-                        "class": weapon_class,
-                        "attachments": "全网实时热门改枪码",
-                        "code": code
-                    })
+                    # 尝试提取价格（从代码附近的文本中找包含 "万"、"w"、"W" 的数字）
+price = None
+code_pos = page_text.find(code)
+if code_pos > 0:
+    context = page_text[max(0, code_pos-300):code_pos+100]
+    # 匹配 "24万"、"18.5w" 等格式
+    import re
+    price_match = re.search(r'(\d+(?:\.\d+)?)\s*[万wW]', context)
+    if price_match:
+        price = price_match.group(1) + '万'
+
+all_codes.append({
+    "name": f"{weapon_name} 配装方案",
+    "weapon": weapon_name,
+    "class": weapon_class,
+    "attachments": attachments,
+    "code": code,
+    "price": price
+})
             
             # 随机延时
             time.sleep(random.uniform(1, 3))
