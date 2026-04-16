@@ -2,8 +2,8 @@ name: 自动更新改枪码
 
 on:
   schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
+    - cron: '0 2 * * *'   # 每天凌晨2点运行
+  workflow_dispatch:       # 允许手动触发
 
 jobs:
   update-codes:
@@ -19,12 +19,10 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install requests beautifulsoup4
+          pip install -r requirements.txt
 
       - name: 运行爬虫
-        run: |
-          python gi.githubcrawler.py
-          echo "爬虫执行完成"
+        run: python crawler.py
 
       - name: 提交更新
         run: |
