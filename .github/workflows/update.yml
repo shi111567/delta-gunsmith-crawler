@@ -1,34 +1,35 @@
-name: Update Gunsmith Codes
+name: 自动更新改枪码
 
 on:
   schedule:
-    # 北京时间每天早上8点执行 (UTC 0点)
-    - cron: '0 0 * * *'
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 2 * * *'  # 每天凌晨2点运行
+  workflow_dispatch:      # 允许手动触发
 
 jobs:
-  update:
+  update-codes:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: Setup Python
+      - name: 设置 Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
-      - name: Run crawler
-        run: python crawler.py
-
-      - name: Commit and push if changed
+      - name: 安装依赖
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add codes.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 自动更新改枪码 [skip ci]" && git push)
+          pip install requests beautifulsoup4
+
+      - name: 运行爬虫
+        run: python gi.githubcrawler.py
+
+      - name: 提交更新
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add codes.json budget_loadouts.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 自动更新数据 [skip ci]"
+          git push
