@@ -1,0 +1,257 @@
+[
+  {
+    "name": "腾龙·18万S级强度",
+    "scenario": "通用",
+    "map": [
+      "大坝",
+      "长弓溪谷",
+      "航天基地",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "腾龙突击步枪",
+        "price": 18.0,
+        "desc": "18万玩到S级中上游",
+        "code": "6IL87QG013CE082VBOHIS"
+      }
+    ],
+    "armors": [
+      {
+        "name": "三级甲",
+        "price": 5.0,
+        "desc": "过渡使用"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "三级头",
+        "price": 4.0,
+        "desc": "基础防护"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "强袭战术背心",
+        "price": 3.0,
+        "desc": "性价比之选"
+      }
+    ],
+    "features": "版本答案，极低成本获得S级强度，无后座体验。",
+    "hotScore": 98,
+    "totalPrice": 30.0,
+    "updateTime": "2026-04-16 07:53"
+  },
+  {
+    "name": "丐版野牛·极限跑刀",
+    "scenario": "跑刀",
+    "map": [
+      "大坝",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "野牛冲锋枪",
+        "price": 3.3,
+        "desc": "丐中丐版，近战糊脸",
+        "code": "野牛冲锋枪-烽火地带-6IDNJTC0FCDV4UPACJK76"
+      }
+    ],
+    "armors": [
+      {
+        "name": "蝰蛇轻型",
+        "price": 12.0,
+        "desc": "四级防护，不减移速"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "蝰蛇系列",
+        "price": 7.8,
+        "desc": "配套四级头"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "MAP侦察背包",
+        "price": 4.4,
+        "desc": "24格大容量"
+      }
+    ],
+    "features": "极致性价比，专为跑刀设计，投入极低，捡到就是赚到。",
+    "hotScore": 95,
+    "totalPrice": 27.5,
+    "updateTime": "2026-04-16 07:53"
+  },
+  {
+    "name": "MP5·经典平民猛攻",
+    "scenario": "猛攻",
+    "map": [
+      "大坝",
+      "航天基地",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "MP5冲锋枪",
+        "price": 11.5,
+        "desc": "20米内腰射精准",
+        "code": "MP5冲锋枪-烽火地带-6ICCO940FCDV4UPACJK76"
+      },
+      {
+        "name": "G18C手枪",
+        "price": 10.6,
+        "desc": "近战补枪神器",
+        "code": ""
+      }
+    ],
+    "armors": [
+      {
+        "name": "DT-AVS防弹衣",
+        "price": 15.0,
+        "desc": "四级甲，绝密模式可用"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "四级头，拾音+30%"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "经典胸挂"
+      }
+    ],
+    "features": "经典平民猛攻组合，主副武器搭配，适应多种交战距离。",
+    "hotScore": 93,
+    "totalPrice": 52.1,
+    "updateTime": "2026-04-16 07:53"
+  },
+  {
+    "name": "M870·卡战备神器",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "M870霰弹枪",
+        "price": 4.0,
+        "desc": "近战秒人，清AI效率极高",
+        "code": "M870-烽火地带-6H6B1K808BFD9V58JNQMS"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级防弹背心",
+        "price": 3.0,
+        "desc": "基础防护"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "破损五级头",
+        "price": 6.0,
+        "desc": "高战备值，性价比极高"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "超大容量"
+      }
+    ],
+    "features": "凑战备门槛的神器，总价低，战备值高。",
+    "hotScore": 91,
+    "totalPrice": 18.0,
+    "updateTime": "2026-04-16 07:53"
+  },
+  {
+    "name": "MCX LT·零后坐力激光枪",
+    "scenario": "绝密",
+    "map": [
+      "航天基地",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "MCX LT突击步枪",
+        "price": 30.0,
+        "desc": "零后坐力激光枪",
+        "code": "MCX LT突击步枪-烽火地带-6J0DPQ0092SAL51E9I4V4"
+      }
+    ],
+    "armors": [
+      {
+        "name": "四级甲",
+        "price": 18.0,
+        "desc": "绝密门槛"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "四级头",
+        "price": 10.0,
+        "desc": "必备"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "摸金必备"
+      }
+    ],
+    "features": "30万打造T0级体验，指哪打哪，平民战神。",
+    "hotScore": 90,
+    "totalPrice": 63.0,
+    "updateTime": "2026-04-16 07:53"
+  },
+  {
+    "name": "CAR-15·步枪跑刀",
+    "scenario": "跑刀",
+    "map": [
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "CAR-15突击步枪",
+        "price": 3.1,
+        "desc": "50米内压枪稳定",
+        "code": "CAR-15突击步枪-烽火地带-6IDNQUC0FCDV4UPACJK76"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "不拖累移速"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "4级听力头戴",
+        "price": 5.0,
+        "desc": "听脚步防偷袭"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "强袭战术背心",
+        "price": 3.0,
+        "desc": "14格容量"
+      }
+    ],
+    "features": "步枪跑刀，中距离作战能力更强，不虚一般AI。",
+    "hotScore": 88,
+    "totalPrice": 13.1,
+    "updateTime": "2026-04-16 07:53"
+  }
+]
