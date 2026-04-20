@@ -1,0 +1,112 @@
+[
+  {
+    "name": "S12K",
+    "damage": 136,
+    "fire_rate": 300,
+    "armor_pen": 18,
+    "category": "霰弹",
+    "ttk_4": 0.2,
+    "ttk_5": 0.2,
+    "ttk_6": 0.2,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "Vector",
+    "damage": 32,
+    "fire_rate": 1091,
+    "armor_pen": 25,
+    "category": "冲锋",
+    "ttk_4": 0.275,
+    "ttk_5": 0.275,
+    "ttk_6": 0.275,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "K416",
+    "damage": 40,
+    "fire_rate": 780,
+    "armor_pen": 30,
+    "category": "突击",
+    "ttk_4": 0.308,
+    "ttk_5": 0.308,
+    "ttk_6": 0.308,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "M7",
+    "damage": 38,
+    "fire_rate": 750,
+    "armor_pen": 42,
+    "category": "突击",
+    "ttk_4": 0.24,
+    "ttk_5": 0.32,
+    "ttk_6": 0.32,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "MP7",
+    "damage": 33,
+    "fire_rate": 900,
+    "armor_pen": 28,
+    "category": "冲锋",
+    "ttk_4": 0.333,
+    "ttk_5": 0.333,
+    "ttk_6": 0.333,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "AUG",
+    "damage": 41,
+    "fire_rate": 720,
+    "armor_pen": 32,
+    "category": "突击",
+    "ttk_4": 0.333,
+    "ttk_5": 0.333,
+    "ttk_6": 0.333,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "M249",
+    "damage": 36,
+    "fire_rate": 858,
+    "armor_pen": 35,
+    "category": "机枪",
+    "ttk_4": 0.35,
+    "ttk_5": 0.35,
+    "ttk_6": 0.35,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "PKM",
+    "damage": 42,
+    "fire_rate": 668,
+    "armor_pen": 40,
+    "category": "机枪",
+    "ttk_4": 0.269,
+    "ttk_5": 0.359,
+    "ttk_6": 0.359,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "G3",
+    "damage": 50,
+    "fire_rate": 500,
+    "armor_pen": 42,
+    "category": "突击",
+    "ttk_4": 0.24,
+    "ttk_5": 0.36,
+    "ttk_6": 0.36,
+    "updated_at": "2026-04-20 13:31"
+  },
+  {
+    "name": "AS Val",
+    "damage": 34,
+    "fire_rate": 800,
+    "armor_pen": 48,
+    "category": "突击",
+    "ttk_4": 0.15,
+    "ttk_5": 0.375,
+    "ttk_6": 0.375,
+    "updated_at": "2026-04-20 13:31"
+  }
+]
