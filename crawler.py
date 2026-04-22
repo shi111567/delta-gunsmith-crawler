@@ -215,6 +215,175 @@ def generate_budget_loadouts_json():
     final_loadouts.sort(key=lambda x: x["hotScore"], reverse=True)
     return final_loadouts
 
+
+# ==================== 福利活动候选发现 ====================
+WELFARE_CANDIDATES_FILE = "welfare_candidates.json"
+WELFARE_PUBLISHED_FILE = "welfare_activities.json"
+
+# 需要监控的福利信息来源
+WELFARE_SOURCES = [
+    {
+        "name": "官方新闻中心",
+        "url": "https://df.qq.com/web202106/news.html",
+        "type": "official"
+    },
+    {
+        "name": "九游福利汇总",
+        "url": "https://a.9game.cn/df/activity/",
+        "type": "aggregator"
+    },
+    {
+        "name": "52PK兑换码",
+        "url": "https://m.52pk.com/df/codes/",
+        "type": "aggregator"
+    },
+    {
+        "name": "游侠网活动专区",
+        "url": "https://www.ali213.net/zt/deltaforce/activity/",
+        "type": "aggregator"
+    }
+]
+
+# 福利关键词（用于识别活动类文章）
+WELFARE_KEYWORDS = ["福利", "礼包", "兑换码", "免费", "白嫖", "赠送", "领取", "活动", "奖励", "CDK", "cdk"]
+
+def discover_welfare_candidates():
+    """发现候选福利活动（不直接发布，需要人工确认）"""
+    print("\n🎁 开始发现福利活动候选...")
+    
+    candidates = []
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
+    # 先读取已有的候选，避免重复
+    existing = []
+    try:
+        with open(WELFARE_CANDIDATES_FILE, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+    except FileNotFoundError:
+        pass
+    
+    existing_urls = {c.get("link", "") for c in existing}
+    
+    for source in WELFARE_SOURCES:
+        try:
+            print(f"   📡 扫描 {source['name']}...")
+            response = requests.get(source["url"], headers=headers, timeout=15)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 提取所有链接
+            links = soup.find_all('a', href=True)
+            for link in links:
+                href = link.get('href', '')
+                text = link.get_text(strip=True)
+                
+                # 补全相对路径
+                if href.startswith('/'):
+                    href = "https://df.qq.com" + href
+                elif not href.startswith('http'):
+                    continue
+                
+                # 检查是否包含福利关键词
+                combined = text + href
+                if any(kw in combined for kw in WELFARE_KEYWORDS):
+                    # 避免重复
+                    if href in existing_urls:
+                        continue
+                    
+                    # 尝试提取标题和描述
+                    title = text if len(text) > 5 else "新福利活动"
+                    parent = link.find_parent(['div', 'li', 'article'])
+                    desc = ""
+                    if parent:
+                        desc_text = parent.get_text(strip=True)
+                        if len(desc_text) > len(title):
+                            desc = desc_text[:100] + "..." if len(desc_text) > 100 else desc_text
+                    
+                    candidates.append({
+                        "id": f"c_{int(time.time())}_{len(candidates)}",
+                        "title": title,
+                        "platform": source["name"],
+                        "desc": desc or "点击查看详情",
+                        "link": href,
+                        "source": source["name"],
+                        "discovered_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+                        "status": "pending",  # pending/confirmed/rejected
+                        "icon": "fa-gift",
+                        "color": "#FF6B35"
+                    })
+                    existing_urls.add(href)
+                    
+            time.sleep(random.uniform(1, 2))
+        except Exception as e:
+            print(f"   ⚠️ {source['name']} 扫描失败: {e}")
+    
+    # 合并已有候选和新发现的候选
+    all_candidates = existing + candidates
+    
+    # 去重
+    seen = set()
+    unique_candidates = []
+    for c in all_candidates:
+        if c["link"] not in seen:
+            seen.add(c["link"])
+            unique_candidates.append(c)
+    
+    with open(WELFARE_CANDIDATES_FILE, "w", encoding="utf-8") as f:
+        json.dump(unique_candidates, f, ensure_ascii=False, indent=2)
+    
+    print(f"✅ 发现 {len(candidates)} 个新候选，共 {len(unique_candidates)} 个待确认")
+    return unique_candidates
+
+
+def validate_published_welfare():
+    """验证已发布的活动是否仍然有效"""
+    print("\n🔍 验证已发布福利活动的有效性...")
+    
+    try:
+        with open(WELFARE_PUBLISHED_FILE, "r", encoding="utf-8") as f:
+            published = json.load(f)
+    except FileNotFoundError:
+        print(f"   ⚠️ {WELFARE_PUBLISHED_FILE} 不存在，跳过验证")
+        return
+    
+    headers = {"User-Agent": "Mozilla/5.0"}
+    updated = False
+    
+    for act in published:
+        if not act.get("is_active", True):
+            continue
+        
+        try:
+            response = requests.get(act["link"], headers=headers, timeout=10, allow_redirects=True)
+            
+            # 如果返回404或重定向到首页，说明活动已失效
+            if response.status_code == 404:
+                act["is_active"] = False
+                act["expire_reason"] = "页面不存在"
+                updated = True
+                print(f"   ❌ {act['title']} 已失效（404）")
+            elif "活动已结束" in response.text or "活动已过期" in response.text or "敬请期待" in response.text:
+                act["is_active"] = False
+                act["expire_reason"] = "活动已结束"
+                updated = True
+                print(f"   ⏰ {act['title']} 已过期")
+            else:
+                # 可选：检查是否有明确的过期时间标签，这里只做简单标记
+                pass
+                    
+        except Exception as e:
+            print(f"   ⚠️ 验证 {act['title']} 时出错: {e}")
+    
+    if updated:
+        with open(WELFARE_PUBLISHED_FILE, "w", encoding="utf-8") as f:
+            json.dump(published, f, ensure_ascii=False, indent=2)
+        print(f"✅ welfare_activities.json 已更新")
+    else:
+        print(f"✅ 所有已发布活动仍在有效期内")
+
+
+
+
 # ==================== 6. 万能猜题库生成器 ====================
 class QuizGenerator:
     def __init__(self):
@@ -470,6 +639,15 @@ def main():
     with open("weapon_ttk.json", "w", encoding="utf-8") as f:
         json.dump(weapon_ttk, f, ensure_ascii=False, indent=2)
     print(f"🎯 weapon_ttk.json 已更新，共 {len(weapon_ttk)} 条")
+
+
+def main():
+    # ... 您原有的改枪码、起装方案、题库、物资价格、TTK 代码 ...
+    
+    # ========== 新增：福利活动候选发现 + 验证 ==========
+    discover_welfare_candidates()
+    validate_published_welfare()
+    # ========== 新增结束 ==========
 
 if __name__ == "__main__":
     main()
