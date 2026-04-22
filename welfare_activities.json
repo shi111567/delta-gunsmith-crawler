@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "w1",
+    "title": "三角洲行动官网",
+    "platform": "官方",
+    "desc": "最新活动、新闻及版本公告",
+    "link": "https://df.qq.com/",
+    "icon": "fa-shield-halved",
+    "color": "#FF6B35",
+    "is_active": true
+  },
+  {
+    "id": "w2",
+    "title": "QQ游戏中心礼包",
+    "platform": "QQ",
+    "desc": "每日签到、游戏中心专属福利",
+    "link": "https://youxi.gamecenter.qq.com/",
+    "icon": "fab fa-qq",
+    "color": "#12B7F5",
+    "is_active": true
+  },
+  {
+    "id": "w3",
+    "title": "虎牙直播专区",
+    "platform": "虎牙",
+    "desc": "观看直播领宝箱、参与活动",
+    "link": "https://www.huya.com/g/4079",
+    "icon": "fa-tv",
+    "color": "#FF7E00",
+    "is_active": true
+  },
+  {
+    "id": "w4",
+    "title": "斗鱼直播专区",
+    "platform": "斗鱼",
+    "desc": "每日签到、专区活动礼包",
+    "link": "https://www.douyu.com/directory/game/DeltaForce",
+    "icon": "fa-fish",
+    "color": "#FF6B35",
+    "is_active": true
+  },
+  {
+    "id": "w5",
+    "title": "B站官方账号",
+    "platform": "B站",
+    "desc": "关注官方号获取兑换码和福利",
+    "link": "https://space.bilibili.com/3546588203814724",
+    "icon": "fab fa-bilibili",
+    "color": "#00A1D6",
+    "is_active": true
+  }
+]
