@@ -37,7 +37,8 @@
     "link": "https://www.douyu.com/directory/game/DeltaForce",
     "icon": "fa-fish",
     "color": "#FF6B35",
-    "is_active": true
+    "is_active": false,
+    "expire_reason": "页面不存在"
   },
   {
     "id": "w5",
