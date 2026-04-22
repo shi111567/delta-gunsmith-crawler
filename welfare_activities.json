@@ -1,0 +1,52 @@
+[
+  {
+    "id": "w1",
+    "title": "猛攻节·古墓丽影联动",
+    "platform": "官方活动",
+    "desc": "2600限时三角券 + 露娜劳拉皮肤",
+    "link": "https://df.qq.com/cp/a20260424assault/",
+    "icon": "fa-fire",
+    "color": "#e74c3c",
+    "is_active": true
+  },
+  {
+    "id": "w2",
+    "title": "QQ彩蛋福利",
+    "platform": "QQ",
+    "desc": "手机QQ发送'三角洲'触发彩蛋",
+    "link": "https://ti.qq.com/act/delta-egg",
+    "icon": "fab fa-qq",
+    "color": "#12B7F5",
+    "is_active": true
+  },
+  {
+    "id": "w3",
+    "title": "虎牙直播签到",
+    "platform": "虎牙",
+    "desc": "观看直播领限定道具",
+    "link": "https://www.huya.com/g/4079",
+    "icon": "fa-tv",
+    "color": "#FF7E00",
+    "is_active": true
+  },
+  {
+    "id": "w4",
+    "title": "斗鱼专属礼包",
+    "platform": "斗鱼",
+    "desc": "斗鱼专区每日签到领礼包",
+    "link": "https://www.douyu.com/directory/game/DeltaForce",
+    "icon": "fa-fish",
+    "color": "#FF6B35",
+    "is_active": true
+  },
+  {
+    "id": "w5",
+    "title": "最新兑换码汇总",
+    "platform": "九游/52PK",
+    "desc": "SJZ2026、DELTA0401等多个兑换码",
+    "link": "https://a.9game.cn/news/11631452.html",
+    "icon": "fa-key",
+    "color": "#f1c40f",
+    "is_active": true
+  }
+]
