@@ -30,7 +30,7 @@ jobs:
           git config --global user.email "actions@github.com"
           
           git add codes.json budget_loadouts.json quiz_bank.json
-          git add loot_prices.json weapon_ttk.json welfare_activities.json welfare_candidates.json 2>/dev/null || echo "新文件暂未生成"
+          git add loot_prices.json weapon_ttk.json welfare_activities.json graphics_solutions.json 2>/dev/null || echo "新文件暂未生成"
           
           if git diff --staged --quiet; then
             echo "没有新的更改，跳过提交"
