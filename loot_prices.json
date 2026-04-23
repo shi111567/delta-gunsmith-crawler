@@ -1,310 +1,310 @@
 [
   {
     "name": "量子芯片",
-    "price": 1910.8,
+    "price": 1986.2,
     "unit": "万",
     "tier": "red",
-    "trend": "down",
-    "change_percent": -3.5,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "非洲之心",
-    "price": 1350.8,
-    "unit": "万",
-    "tier": "red",
-    "trend": "up",
-    "change_percent": 2.8,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "复苏呼吸机",
-    "price": 484.3,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "down",
-    "change_percent": -3.1,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "金条",
-    "price": 277.0,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "down",
-    "change_percent": -3.2,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "战术头盔",
-    "price": 207.3,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "up",
-    "change_percent": 4.7,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "飞秒激光器",
-    "price": 148.0,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "down",
-    "change_percent": -3.9,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "精密电子元件",
-    "price": 140.0,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "down",
-    "change_percent": -1.4,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "纳米修复凝胶",
-    "price": 125.8,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "stable",
-    "change_percent": 0.6,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "阵列服务器蓝图",
-    "price": 117.2,
-    "unit": "万",
-    "tier": "gold",
-    "trend": "down",
-    "change_percent": -2.4,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "电子脚镣",
-    "price": 102.3,
-    "unit": "万",
-    "tier": "gold",
     "trend": "stable",
     "change_percent": 0.3,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
-    "name": "异常清除药品",
-    "price": 85.1,
+    "name": "非洲之心",
+    "price": 1376.2,
     "unit": "万",
-    "tier": "purple",
-    "trend": "down",
-    "change_percent": -4.4,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "加密硬盘",
-    "price": 68.1,
-    "unit": "万",
-    "tier": "purple",
+    "tier": "red",
     "trend": "up",
     "change_percent": 4.7,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "复苏呼吸机",
+    "price": 515.9,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "up",
+    "change_percent": 3.2,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "金条",
+    "price": 281.2,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "down",
+    "change_percent": -1.7,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "战术头盔",
+    "price": 196.7,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "stable",
+    "change_percent": -0.7,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "飞秒激光器",
+    "price": 156.5,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "up",
+    "change_percent": 1.6,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "精密电子元件",
+    "price": 140.6,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "down",
+    "change_percent": -1.0,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "纳米修复凝胶",
+    "price": 125.5,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "stable",
+    "change_percent": 0.4,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "阵列服务器蓝图",
+    "price": 114.7,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "down",
+    "change_percent": -4.4,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "电子脚镣",
+    "price": 103.2,
+    "unit": "万",
+    "tier": "gold",
+    "trend": "up",
+    "change_percent": 1.2,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "异常清除药品",
+    "price": 86.6,
+    "unit": "万",
+    "tier": "purple",
+    "trend": "down",
+    "change_percent": -2.7,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "加密硬盘",
+    "price": 67.1,
+    "unit": "万",
+    "tier": "purple",
+    "trend": "up",
+    "change_percent": 3.3,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "车载信号干扰器",
-    "price": 61.1,
+    "price": 58.7,
     "unit": "万",
     "tier": "purple",
-    "trend": "up",
-    "change_percent": 1.8,
+    "trend": "down",
+    "change_percent": -2.2,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "精密零件",
-    "price": 52.6,
+    "price": 54.0,
     "unit": "万",
     "tier": "purple",
-    "trend": "stable",
-    "change_percent": 0.6,
+    "trend": "up",
+    "change_percent": 3.2,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "军用通讯仪",
-    "price": 52.0,
+    "price": 52.4,
     "unit": "万",
     "tier": "blue",
     "trend": "up",
-    "change_percent": 4.0,
+    "change_percent": 4.8,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "军用炮弹",
-    "price": 45.9,
+    "price": 46.4,
     "unit": "万",
     "tier": "blue",
     "trend": "up",
-    "change_percent": 2.0,
+    "change_percent": 3.2,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "碳纤维板",
-    "price": 42.2,
+    "price": 40.7,
     "unit": "万",
     "tier": "blue",
-    "trend": "stable",
-    "change_percent": 0.6,
+    "trend": "down",
+    "change_percent": -3.2,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "航电模块",
-    "price": 37.6,
+    "price": 39.6,
+    "unit": "万",
+    "tier": "blue",
+    "trend": "up",
+    "change_percent": 2.5,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "劳力士",
+    "price": 37.2,
+    "unit": "万",
+    "tier": "blue",
+    "trend": "down",
+    "change_percent": -2.2,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "留声机",
+    "price": 34.3,
+    "unit": "万",
+    "tier": "blue",
+    "trend": "down",
+    "change_percent": -1.9,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "显卡",
+    "price": 27.1,
+    "unit": "万",
+    "tier": "blue",
+    "trend": "down",
+    "change_percent": -3.3,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "笔记本电脑",
+    "price": 21.4,
     "unit": "万",
     "tier": "blue",
     "trend": "down",
     "change_percent": -2.6,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "劳力士",
-    "price": 36.6,
-    "unit": "万",
-    "tier": "blue",
-    "trend": "down",
-    "change_percent": -3.7,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "留声机",
-    "price": 33.5,
-    "unit": "万",
-    "tier": "blue",
-    "trend": "down",
-    "change_percent": -4.3,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "显卡",
-    "price": 27.7,
-    "unit": "万",
-    "tier": "blue",
-    "trend": "down",
-    "change_percent": -1.2,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "笔记本电脑",
-    "price": 21.3,
-    "unit": "万",
-    "tier": "blue",
-    "trend": "down",
-    "change_percent": -3.0,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "数码相机",
-    "price": 15.2,
+    "price": 15.5,
     "unit": "万",
     "tier": "blue",
     "trend": "up",
-    "change_percent": 1.1,
+    "change_percent": 3.5,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "设计图纸",
-    "price": 12.3,
+    "price": 11.8,
     "unit": "万",
     "tier": "blue",
-    "trend": "up",
-    "change_percent": 2.8,
+    "trend": "down",
+    "change_percent": -1.5,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "金蛋(9x39)",
-    "price": 2.1,
+    "price": 1.9,
     "unit": "万",
     "tier": "blue",
-    "trend": "up",
-    "change_percent": 3.8,
+    "trend": "down",
+    "change_percent": -2.6,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "军用罐头",
-    "price": 1.6,
+    "price": 1.5,
     "unit": "万",
     "tier": "blue",
     "trend": "up",
-    "change_percent": 4.3,
+    "change_percent": 2.5,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
   },
   {
     "name": "高精数显卡尺",
-    "price": 1.6,
-    "unit": "万",
-    "tier": "blue",
-    "trend": "up",
-    "change_percent": 4.0,
-    "desc": "实时行情",
-    "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
-  },
-  {
-    "name": "低级燃料",
     "price": 1.5,
     "unit": "万",
     "tier": "blue",
     "trend": "stable",
-    "change_percent": 0.9,
+    "change_percent": -0.5,
     "desc": "实时行情",
     "slot_value": 1,
-    "updated_at": "2026-04-22 13:48"
+    "updated_at": "2026-04-23 04:46"
+  },
+  {
+    "name": "低级燃料",
+    "price": 1.4,
+    "unit": "万",
+    "tier": "blue",
+    "trend": "down",
+    "change_percent": -4.7,
+    "desc": "实时行情",
+    "slot_value": 1,
+    "updated_at": "2026-04-23 04:46"
   }
 ]
