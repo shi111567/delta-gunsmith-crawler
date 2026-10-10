@@ -40,7 +40,7 @@
     "features": "版本答案，极低成本获得S级强度，无后座体验。",
     "hotScore": 98,
     "totalPrice": 30.0,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
@@ -82,7 +82,7 @@
     "features": "极致性价比，专为跑刀设计，投入极低，捡到就是赚到。",
     "hotScore": 95,
     "totalPrice": 27.5,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
@@ -131,7 +131,7 @@
     "features": "经典平民猛攻组合，主副武器搭配，适应多种交战距离。",
     "hotScore": 93,
     "totalPrice": 52.1,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
@@ -173,7 +173,7 @@
     "features": "凑战备门槛的神器，总价低，战备值高。",
     "hotScore": 91,
     "totalPrice": 18.0,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
@@ -215,7 +215,7 @@
     "features": "30万打造T0级体验，指哪打哪，平民战神。",
     "hotScore": 90,
     "totalPrice": 63.0,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
@@ -257,16 +257,14 @@
     "features": "步枪跑刀，中距离作战能力更强，不虚一般AI。",
     "hotScore": 88,
     "totalPrice": 13.1,
-    "updateTime": "2026-10-09 08:16",
+    "updateTime": "2026-10-10 07:58",
     "source": "经典模板"
   },
   {
     "name": "网络热门方案",
     "scenario": "卡战备",
     "map": [
-      "大坝",
       "航天基地",
-      "巴克什",
       "长弓溪谷"
     ],
     "weapons": [
@@ -274,13 +272,13 @@
         "name": "未知枪械",
         "price": 18.0,
         "desc": "全网实时热门改枪码",
-        "code": "6IBFBRO0BAC7RIM3B0293"
+        "code": "6IMVF7O0B0GKDDOTE9T6Q"
       }
     ],
     "armors": [
       {
-        "name": "3级防弹背心",
-        "price": 3.0,
+        "name": "四级甲",
+        "price": 18.0,
         "desc": "推荐防具"
       }
     ],
@@ -293,66 +291,25 @@
     ],
     "backpacks": [
       {
-        "name": "GIR野战胸挂",
-        "price": 5.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 48.0,
-    "hotScore": 50,
-    "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "网络热门方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "未知枪械",
-        "price": 18.0,
-        "desc": "全网实时热门改枪码",
-        "code": "6IBFBIK0BAC7RIM3B0293"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
+        "name": "战术快拆背包",
         "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "破损五级头",
-        "price": 6.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "野战背包",
-        "price": 3.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 43.0,
+    "totalPrice": 62.0,
     "hotScore": 50,
     "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "网络热门方案",
     "scenario": "卡战备",
     "map": [
+      "大坝",
+      "巴克什",
       "航天基地",
-      "长弓溪谷",
-      "巴克什"
+      "长弓溪谷"
     ],
     "weapons": [
       {
@@ -364,15 +321,15 @@
     ],
     "armors": [
       {
-        "name": "DT-AVS防弹衣",
-        "price": 15.0,
+        "name": "四级甲",
+        "price": 18.0,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "四级头",
-        "price": 10.0,
+        "name": "D6头盔",
+        "price": 7.0,
         "desc": "推荐头盔"
       }
     ],
@@ -387,16 +344,57 @@
     "totalPrice": 58.0,
     "hotScore": 50,
     "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "网络热门方案",
     "scenario": "卡战备",
     "map": [
-      "航天基地",
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "未知枪械",
+        "price": 18.0,
+        "desc": "全网实时热门改枪码",
+        "code": "6IBFBRO0BAC7RIM3B0293"
+      }
+    ],
+    "armors": [
+      {
+        "name": "蝰蛇轻型",
+        "price": 12.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "三级头",
+        "price": 4.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "MAP侦察背包",
+        "price": 4.4,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自app.ali213.net的实时热门方案",
+    "totalPrice": 50.4,
+    "hotScore": 50,
+    "source": "app.ali213.net",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "网络热门方案",
+    "scenario": "卡战备",
+    "map": [
       "大坝",
       "巴克什",
-      "长弓溪谷"
+      "航天基地"
     ],
     "weapons": [
       {
@@ -415,6 +413,48 @@
     ],
     "helmets": [
       {
+        "name": "破损五级头",
+        "price": 6.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自app.ali213.net的实时热门方案",
+    "totalPrice": 52.0,
+    "hotScore": 50,
+    "source": "app.ali213.net",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "网络热门方案",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "未知枪械",
+        "price": 18.0,
+        "desc": "全网实时热门改枪码",
+        "code": "6IBF95S0BAC7RIM3B0293"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
         "name": "GT1战术头盔",
         "price": 8.0,
         "desc": "推荐头盔"
@@ -422,21 +462,22 @@
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "战术快拆背包",
+        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 53.0,
+    "totalPrice": 44.0,
     "hotScore": 50,
     "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "网络热门方案",
     "scenario": "卡战备",
     "map": [
+      "巴克什",
       "大坝",
       "长弓溪谷"
     ],
@@ -450,74 +491,30 @@
     ],
     "armors": [
       {
-        "name": "2级轻便甲",
-        "price": 2.0,
+        "name": "蝰蛇系列",
+        "price": 7.8,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "户外棒球帽",
-        "price": 3.4,
+        "name": "MHS战术头盔",
+        "price": 10.0,
         "desc": "推荐头盔"
       }
     ],
     "backpacks": [
       {
-        "name": "GIR野战胸挂",
-        "price": 5.0,
+        "name": "MAP侦察背包",
+        "price": 4.4,
         "desc": "推荐背包"
       }
     ],
     "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 40.4,
+    "totalPrice": 52.2,
     "hotScore": 50,
     "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "网络热门方案",
-    "scenario": "卡战备",
-    "map": [
-      "航天基地",
-      "大坝",
-      "长弓溪谷",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "未知枪械",
-        "price": 18.0,
-        "desc": "全网实时热门改枪码",
-        "code": "6IMVF7O0B0GKDDOTE9T6Q"
-      }
-    ],
-    "armors": [
-      {
-        "name": "蝰蛇轻型",
-        "price": 12.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "GT1战术头盔",
-        "price": 8.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "野战背包",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 53.0,
-    "hotScore": 50,
-    "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "网络热门方案",
@@ -525,50 +522,50 @@
     "map": [
       "航天基地",
       "长弓溪谷",
-      "大坝",
-      "巴克什"
+      "巴克什",
+      "大坝"
     ],
     "weapons": [
       {
         "name": "未知枪械",
         "price": 18.0,
         "desc": "全网实时热门改枪码",
-        "code": "6IBF95S0BAC7RIM3B0293"
+        "code": "6IBFBIK0BAC7RIM3B0293"
       }
     ],
     "armors": [
       {
-        "name": "射手战术背心",
-        "price": 5.0,
+        "name": "蝰蛇系列",
+        "price": 7.8,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "D6头盔",
-        "price": 7.0,
+        "name": "四级头",
+        "price": 10.0,
         "desc": "推荐头盔"
       }
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "MAP侦察背包",
+        "price": 4.4,
         "desc": "推荐背包"
       }
     ],
     "features": "来自app.ali213.net的实时热门方案",
-    "totalPrice": 45.0,
+    "totalPrice": 52.2,
     "hotScore": 50,
     "source": "app.ali213.net",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "PTR-32突击步枪 配装方案",
     "scenario": "卡战备",
     "map": [
-      "大坝",
-      "航天基地"
+      "长弓溪谷",
+      "巴克什"
     ],
     "weapons": [
       {
@@ -580,8 +577,94 @@
     ],
     "armors": [
       {
+        "name": "射手战术背心",
+        "price": 5.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 49.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "ASVal突击步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "长弓溪谷",
+      "大坝",
+      "航天基地",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "ASVal突击步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAKVC02U9HU6AC38CQJ3"
+      }
+    ],
+    "armors": [
+      {
         "name": "蝰蛇轻型",
         "price": 12.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MC201战术头盔",
+        "price": 5.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 51.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "AKM突击步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "大坝",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "AKM突击步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAL2G02U9HU6AC38CQJ4"
+      }
+    ],
+    "armors": [
+      {
+        "name": "DT-AVS防弹衣",
+        "price": 15.0,
         "desc": "推荐防具"
       }
     ],
@@ -594,101 +677,16 @@
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 52.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "ASVal突击步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "航天基地",
-      "长弓溪谷"
-    ],
-    "weapons": [
-      {
-        "name": "ASVal突击步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAKVC02U9HU6AC38CQJ3"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
-        "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MC201战术头盔",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
         "name": "GIR野战胸挂",
         "price": 5.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 44.0,
+    "totalPrice": 57.0,
     "hotScore": 50,
     "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "AKM突击步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "航天基地",
-      "巴克什",
-      "大坝"
-    ],
-    "weapons": [
-      {
-        "name": "AKM突击步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAL2G02U9HU6AC38CQJ4"
-      }
-    ],
-    "armors": [
-      {
-        "name": "2级轻便甲",
-        "price": 2.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MHS战术头盔",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 46.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "191式突击步枪 配装方案",
@@ -696,7 +694,7 @@
     "map": [
       "长弓溪谷",
       "航天基地",
-      "大坝"
+      "巴克什"
     ],
     "weapons": [
       {
@@ -708,38 +706,37 @@
     ],
     "armors": [
       {
-        "name": "射手战术背心",
-        "price": 5.0,
+        "name": "3级防弹背心",
+        "price": 3.0,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "GT1战术头盔",
-        "price": 8.0,
+        "name": "四级头",
+        "price": 10.0,
         "desc": "推荐头盔"
       }
     ],
     "backpacks": [
       {
-        "name": "强袭战术背心",
-        "price": 3.0,
+        "name": "战术快拆背包",
+        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 46.0,
+    "totalPrice": 47.0,
     "hotScore": 50,
     "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "M4A1突击步枪 配装方案",
     "scenario": "卡战备",
     "map": [
-      "大坝",
-      "长弓溪谷",
-      "巴克什"
+      "航天基地",
+      "长弓溪谷"
     ],
     "weapons": [
       {
@@ -747,603 +744,6 @@
         "price": 18.0,
         "desc": "详见原文",
         "code": "6EIAL7C02U9HU6AC38CQJ6"
-      }
-    ],
-    "armors": [
-      {
-        "name": "射手战术背心",
-        "price": 5.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MC201战术头盔",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "强袭战术背心",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 43.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "S12K霰弹枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "大坝",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "S12K霰弹枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAL9C02U9HU6AC38CQJ7"
-      }
-    ],
-    "armors": [
-      {
-        "name": "2级轻便甲",
-        "price": 2.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "GT1战术头盔",
-        "price": 8.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 44.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "UZI冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "大坝",
-      "长弓溪谷"
-    ],
-    "weapons": [
-      {
-        "name": "UZI冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIALBS02U9HU6AC38CQJ8"
-      }
-    ],
-    "armors": [
-      {
-        "name": "射手战术背心",
-        "price": 5.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MHS战术头盔",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "野战背包",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 48.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "K416突击步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "航天基地",
-      "大坝"
-    ],
-    "weapons": [
-      {
-        "name": "K416突击步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIALPC02U9HU6AC38CQJ9"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级防弹背心",
-        "price": 3.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "破损五级头",
-        "price": 6.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "战术快拆背包",
-        "price": 4.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 43.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "SMG-45冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "大坝",
-      "航天基地",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "SMG-45冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAN5K02U9HU6AC38CQJ10"
-      }
-    ],
-    "armors": [
-      {
-        "name": "四级甲",
-        "price": 18.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "4级听力头戴",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 57.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "野牛冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "航天基地",
-      "大坝",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "野牛冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIANV002U9HU6AC38CQJ11"
-      }
-    ],
-    "armors": [
-      {
-        "name": "射手战术背心",
-        "price": 5.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MC201战术头盔",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 44.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "MP7冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "大坝",
-      "长弓溪谷",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "MP7冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAOLG02U9HU6AC38CQJ12"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级防弹背心",
-        "price": 3.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "户外棒球帽",
-        "price": 3.4,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "强袭战术背心",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 39.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "勇士冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "长弓溪谷"
-    ],
-    "weapons": [
-      {
-        "name": "勇士冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAPD802U9HU6AC38CQJ13"
-      }
-    ],
-    "armors": [
-      {
-        "name": "蝰蛇轻型",
-        "price": 12.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MHS战术头盔",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 56.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "SR-3M紧凑突击步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "SR-3M紧凑突击步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAQ5O02U9HU6AC38CQJ14"
-      }
-    ],
-    "armors": [
-      {
-        "name": "2级轻便甲",
-        "price": 2.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "四级头",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "强袭战术背心",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 45.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "MP5冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "MP5冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAQQO02U9HU6AC38CQJ15"
-      }
-    ],
-    "armors": [
-      {
-        "name": "2级轻便甲",
-        "price": 2.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "四级头",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "战术快拆背包",
-        "price": 4.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 46.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "Vector冲锋枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "航天基地",
-      "大坝"
-    ],
-    "weapons": [
-      {
-        "name": "Vector冲锋枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAREK02U9HU6AC38CQJ16"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级防弹背心",
-        "price": 3.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "三级头",
-        "price": 4.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "GIR野战胸挂",
-        "price": 5.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 42.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "M7战斗步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "巴克什",
-      "大坝"
-    ],
-    "weapons": [
-      {
-        "name": "M7战斗步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIATGS02U9HU6AC38CQJ17"
-      }
-    ],
-    "armors": [
-      {
-        "name": "射手战术背心",
-        "price": 5.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "户外棒球帽",
-        "price": 3.4,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "战术快拆背包",
-        "price": 4.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 42.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "SCAR-H战斗步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "SCAR-H战斗步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAUAK02U9HU6AC38CQJ18"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级防弹背心",
-        "price": 3.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "MC201战术头盔",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "GIR野战胸挂",
-        "price": 5.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 43.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "M249轻机枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "长弓溪谷"
-    ],
-    "weapons": [
-      {
-        "name": "M249轻机枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAV5802U9HU6AC38CQJ19"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级防弹背心",
-        "price": 3.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "4级听力头戴",
-        "price": 5.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "野战背包",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 41.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "PKM通用机枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "航天基地",
-      "大坝",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "PKM通用机枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIAVVS02U9HU6AC38CQJ20"
       }
     ],
     "armors": [
@@ -1371,34 +771,36 @@
     "totalPrice": 53.4,
     "hotScore": 50,
     "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
-    "name": "M250通用机枪 配装方案",
+    "name": "S12K霰弹枪 配装方案",
     "scenario": "卡战备",
     "map": [
-      "大坝",
-      "航天基地"
+      "航天基地",
+      "巴克什",
+      "长弓溪谷",
+      "大坝"
     ],
     "weapons": [
       {
-        "name": "M250通用机枪",
+        "name": "S12K霰弹枪",
         "price": 18.0,
         "desc": "详见原文",
-        "code": "6EH17F402U9HU6AC38CQJ21"
+        "code": "6EIAL9C02U9HU6AC38CQJ7"
       }
     ],
     "armors": [
       {
-        "name": "3级甲",
-        "price": 4.0,
+        "name": "2级轻便甲",
+        "price": 2.0,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "D6头盔",
-        "price": 7.0,
+        "name": "MHS战术头盔",
+        "price": 10.0,
         "desc": "推荐头盔"
       }
     ],
@@ -1406,49 +808,6 @@
       {
         "name": "野战背包",
         "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 44.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "M14射手步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "大坝",
-      "长弓溪谷"
-    ],
-    "weapons": [
-      {
-        "name": "M14射手步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIBB2C02U9HU6AC38CQJ22"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
-        "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "D6头盔",
-        "price": 7.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "战术快拆背包",
-        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
@@ -1456,149 +815,23 @@
     "totalPrice": 45.0,
     "hotScore": 50,
     "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
-    "name": "SR-25射手步枪 配装方案",
+    "name": "UZI冲锋枪 配装方案",
     "scenario": "卡战备",
     "map": [
+      "长弓溪谷",
+      "大坝",
       "巴克什",
-      "大坝",
-      "长弓溪谷",
       "航天基地"
     ],
     "weapons": [
       {
-        "name": "SR-25射手步枪",
+        "name": "UZI冲锋枪",
         "price": 18.0,
         "desc": "详见原文",
-        "code": "6EIBCOC02U9HU6AC38CQJ23"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
-        "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "四级头",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "野战背包",
-        "price": 3.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 47.0,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "Mini-14射手步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "大坝",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "Mini-14射手步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIBDN802U9HU6AC38CQJ24"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
-        "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "四级头",
-        "price": 10.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 48.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "PSG-1射手步枪 配装方案",
-    "scenario": "卡战备",
-    "map": [
-      "长弓溪谷",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "PSG-1射手步枪",
-        "price": 18.0,
-        "desc": "详见原文",
-        "code": "6EIBEK802U9HU6AC38CQJ"
-      }
-    ],
-    "armors": [
-      {
-        "name": "3级甲",
-        "price": 4.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "户外棒球帽",
-        "price": 3.4,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "战术快拆背包",
-        "price": 4.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自news.17173.com的实时热门方案",
-    "totalPrice": 41.4,
-    "hotScore": 50,
-    "source": "news.17173.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "M7 热门配装",
-    "scenario": "绝密",
-    "map": [
-      "大坝",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "M7",
-        "price": 37.8,
-        "desc": "全网实时热门改枪码",
-        "code": "6ID28R409NQFMIL0O8SAF"
+        "code": "6EIALBS02U9HU6AC38CQJ8"
       }
     ],
     "armors": [
@@ -1610,44 +843,43 @@
     ],
     "helmets": [
       {
-        "name": "4级听力头戴",
-        "price": 5.0,
+        "name": "破损五级头",
+        "price": 6.0,
         "desc": "推荐头盔"
       }
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "战术快拆背包",
+        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
-    "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 78.8,
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 47.8,
     "hotScore": 50,
-    "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
   },
   {
-    "name": "AS Val 热门配装",
-    "scenario": "猛攻",
+    "name": "K416突击步枪 配装方案",
+    "scenario": "卡战备",
     "map": [
-      "大坝",
-      "巴克什",
-      "长弓溪谷"
+      "长弓溪谷",
+      "大坝"
     ],
     "weapons": [
       {
-        "name": "AS Val",
-        "price": 32.4,
-        "desc": "全网实时热门改枪码",
-        "code": "6ID2A6O09NQFMIL0O8SAF"
+        "name": "K416突击步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIALPC02U9HU6AC38CQJ9"
       }
     ],
     "armors": [
       {
-        "name": "DT-AVS防弹衣",
-        "price": 15.0,
+        "name": "2级轻便甲",
+        "price": 2.0,
         "desc": "推荐防具"
       }
     ],
@@ -1660,30 +892,163 @@
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "MAP侦察背包",
+        "price": 4.4,
         "desc": "推荐背包"
       }
     ],
-    "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 76.0,
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 40.4,
     "hotScore": 50,
-    "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
   },
   {
-    "name": "SR-3M 热门配装",
+    "name": "SMG-45冲锋枪 配装方案",
     "scenario": "卡战备",
     "map": [
+      "航天基地",
+      "大坝",
+      "巴克什",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "SMG-45冲锋枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAN5K02U9HU6AC38CQJ10"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级甲",
+        "price": 4.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "三级头",
+        "price": 4.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 43.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "野牛冲锋枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "长弓溪谷",
+      "航天基地",
+      "大坝",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "野牛冲锋枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIANV002U9HU6AC38CQJ11"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级甲",
+        "price": 4.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "四级头",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 48.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "MP7冲锋枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "长弓溪谷",
       "巴克什",
       "航天基地"
     ],
     "weapons": [
       {
-        "name": "SR-3M",
+        "name": "MP7冲锋枪",
         "price": 18.0,
-        "desc": "全网实时热门改枪码",
-        "code": "6I6FFS409NQFMIL0O8SAF"
+        "desc": "详见原文",
+        "code": "6EIAOLG02U9HU6AC38CQJ12"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "破损五级头",
+        "price": 6.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "野战背包",
+        "price": 3.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 41.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "勇士冲锋枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "长弓溪谷",
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "勇士冲锋枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAPD802U9HU6AC38CQJ13"
       }
     ],
     "armors": [
@@ -1702,38 +1067,559 @@
     ],
     "backpacks": [
       {
-        "name": "MAP侦察背包",
-        "price": 4.4,
+        "name": "强袭战术背心",
+        "price": 3.0,
         "desc": "推荐背包"
       }
     ],
-    "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 40.8,
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 39.4,
     "hotScore": 50,
-    "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
   },
   {
-    "name": "M7 热门配装",
-    "scenario": "绝密",
+    "name": "SR-3M紧凑突击步枪 配装方案",
+    "scenario": "卡战备",
     "map": [
-      "航天基地",
+      "长弓溪谷",
       "大坝",
       "巴克什",
-      "长弓溪谷"
+      "航天基地"
     ],
     "weapons": [
       {
-        "name": "M7",
-        "price": 37.8,
-        "desc": "全网实时热门改枪码",
-        "code": "6I7ODIC09NQFMIL0O8SAF"
+        "name": "SR-3M紧凑突击步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAQ5O02U9HU6AC38CQJ14"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级甲",
+        "price": 4.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "四级头",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 49.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "MP5冲锋枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "大坝",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "MP5冲锋枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAQQO02U9HU6AC38CQJ15"
+      }
+    ],
+    "armors": [
+      {
+        "name": "射手战术背心",
+        "price": 5.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "四级头",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 49.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "Vector冲锋枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "巴克什",
+      "大坝",
+      "长弓溪谷",
+      "航天基地"
+    ],
+    "weapons": [
+      {
+        "name": "Vector冲锋枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAREK02U9HU6AC38CQJ16"
       }
     ],
     "armors": [
       {
         "name": "蝰蛇系列",
         "price": 7.8,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "4级听力头戴",
+        "price": 5.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 47.8,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M7战斗步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "M7战斗步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIATGS02U9HU6AC38CQJ17"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级甲",
+        "price": 4.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "破损五级头",
+        "price": 6.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "强袭战术背心",
+        "price": 3.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 43.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "SCAR-H战斗步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "巴克什",
+      "大坝",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "SCAR-H战斗步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAUAK02U9HU6AC38CQJ18"
+      }
+    ],
+    "armors": [
+      {
+        "name": "DT-AVS防弹衣",
+        "price": 15.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "MAP侦察背包",
+        "price": 4.4,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 59.4,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M249轻机枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "长弓溪谷",
+      "航天基地",
+      "大坝",
+      "巴克什"
+    ],
+    "weapons": [
+      {
+        "name": "M249轻机枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAV5802U9HU6AC38CQJ19"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "强袭战术背心",
+        "price": 3.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 45.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "PKM通用机枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "大坝",
+      "航天基地",
+      "巴克什",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "PKM通用机枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIAVVS02U9HU6AC38CQJ20"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "四级头",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "野战背包",
+        "price": 3.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 45.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M250通用机枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "M250通用机枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EH17F402U9HU6AC38CQJ21"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级防弹背心",
+        "price": 3.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "GT1战术头盔",
+        "price": 8.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "野战背包",
+        "price": 3.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 44.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M14射手步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "大坝",
+      "航天基地",
+      "巴克什",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "M14射手步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIBB2C02U9HU6AC38CQJ22"
+      }
+    ],
+    "armors": [
+      {
+        "name": "蝰蛇系列",
+        "price": 7.8,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "破损五级头",
+        "price": 6.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 47.8,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "SR-25射手步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "长弓溪谷",
+      "航天基地",
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "SR-25射手步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIBCOC02U9HU6AC38CQJ23"
+      }
+    ],
+    "armors": [
+      {
+        "name": "蝰蛇轻型",
+        "price": 12.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "户外棒球帽",
+        "price": 3.4,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "MAP侦察背包",
+        "price": 4.4,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 49.8,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "Mini-14射手步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "大坝",
+      "航天基地",
+      "巴克什",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "Mini-14射手步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIBDN802U9HU6AC38CQJ24"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "户外棒球帽",
+        "price": 3.4,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 39.4,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "PSG-1射手步枪 配装方案",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "巴克什",
+      "大坝",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "PSG-1射手步枪",
+        "price": 18.0,
+        "desc": "详见原文",
+        "code": "6EIBEK802U9HU6AC38CQJ"
+      }
+    ],
+    "armors": [
+      {
+        "name": "四级甲",
+        "price": 18.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自news.17173.com的实时热门方案",
+    "totalPrice": 62.0,
+    "hotScore": 50,
+    "source": "news.17173.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "AS Val 热门配装",
+    "scenario": "猛攻",
+    "map": [
+      "巴克什",
+      "航天基地",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "AS Val",
+        "price": 32.4,
+        "desc": "全网实时热门改枪码",
+        "code": "6ID2A6O09NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
         "desc": "推荐防具"
       }
     ],
@@ -1752,18 +1638,233 @@
       }
     ],
     "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 83.8,
+    "totalPrice": 69.0,
     "hotScore": 50,
     "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "SR-3M 热门配装",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "SR-3M",
+        "price": 18.0,
+        "desc": "全网实时热门改枪码",
+        "code": "6I6FFS409NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "射手战术背心",
+        "price": 5.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MC201战术头盔",
+        "price": 5.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自www.18183.com的实时热门方案",
+    "totalPrice": 45.0,
+    "hotScore": 50,
+    "source": "www.18183.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "AS Val 热门配装",
+    "scenario": "卡战备",
+    "map": [
+      "航天基地",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "AS Val",
+        "price": 15.6,
+        "desc": "全网实时热门改枪码",
+        "code": "6ID2ADK09NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "蝰蛇轻型",
+        "price": 12.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "4级听力头戴",
+        "price": 5.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自www.18183.com的实时热门方案",
+    "totalPrice": 48.0,
+    "hotScore": 50,
+    "source": "www.18183.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M7 热门配装",
+    "scenario": "绝密",
+    "map": [
+      "巴克什",
+      "大坝"
+    ],
+    "weapons": [
+      {
+        "name": "M7",
+        "price": 37.8,
+        "desc": "全网实时热门改枪码",
+        "code": "6ID28SK09NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "2级轻便甲",
+        "price": 2.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MC201战术头盔",
+        "price": 5.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自www.18183.com的实时热门方案",
+    "totalPrice": 74.0,
+    "hotScore": 50,
+    "source": "www.18183.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M7 热门配装",
+    "scenario": "绝密",
+    "map": [
+      "大坝",
+      "航天基地",
+      "巴克什",
+      "长弓溪谷"
+    ],
+    "weapons": [
+      {
+        "name": "M7",
+        "price": 37.8,
+        "desc": "全网实时热门改枪码",
+        "code": "6I7ODIC09NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "DT-AVS防弹衣",
+        "price": 15.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "MHS战术头盔",
+        "price": 10.0,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "战术快拆背包",
+        "price": 4.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自www.18183.com的实时热门方案",
+    "totalPrice": 92.0,
+    "hotScore": 50,
+    "source": "www.18183.com",
+    "updateTime": "2026-10-10 07:58"
+  },
+  {
+    "name": "M7 热门配装",
+    "scenario": "绝密",
+    "map": [
+      "巴克什",
+      "大坝",
+      "航天基地"
+    ],
+    "weapons": [
+      {
+        "name": "M7",
+        "price": 37.8,
+        "desc": "全网实时热门改枪码",
+        "code": "6ID28R409NQFMIL0O8SAF"
+      }
+    ],
+    "armors": [
+      {
+        "name": "3级防弹背心",
+        "price": 3.0,
+        "desc": "推荐防具"
+      }
+    ],
+    "helmets": [
+      {
+        "name": "户外棒球帽",
+        "price": 3.4,
+        "desc": "推荐头盔"
+      }
+    ],
+    "backpacks": [
+      {
+        "name": "GIR野战胸挂",
+        "price": 5.0,
+        "desc": "推荐背包"
+      }
+    ],
+    "features": "来自www.18183.com的实时热门方案",
+    "totalPrice": 74.4,
+    "hotScore": 50,
+    "source": "www.18183.com",
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "SMG-45 热门配装",
     "scenario": "绝密",
     "map": [
-      "巴克什",
+      "航天基地",
       "长弓溪谷",
-      "航天基地"
+      "巴克什",
+      "大坝"
     ],
     "weapons": [
       {
@@ -1789,16 +1890,16 @@
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "战术快拆背包",
+        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 123.0,
+    "totalPrice": 124.0,
     "hotScore": 50,
     "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "SMG-45 热门配装",
@@ -1817,50 +1918,8 @@
     ],
     "armors": [
       {
-        "name": "DT-AVS防弹衣",
-        "price": 15.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "户外棒球帽",
-        "price": 3.4,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
-        "name": "GIR野战胸挂",
-        "price": 5.0,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 103.4,
-    "hotScore": 50,
-    "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "AS Val 热门配装",
-    "scenario": "卡战备",
-    "map": [
-      "巴克什",
-      "航天基地"
-    ],
-    "weapons": [
-      {
-        "name": "AS Val",
-        "price": 15.6,
-        "desc": "全网实时热门改枪码",
-        "code": "6ID2ADK09NQFMIL0O8SAF"
-      }
-    ],
-    "armors": [
-      {
-        "name": "DT-AVS防弹衣",
-        "price": 15.0,
+        "name": "蝰蛇轻型",
+        "price": 12.0,
         "desc": "推荐防具"
       }
     ],
@@ -1873,66 +1932,23 @@
     ],
     "backpacks": [
       {
-        "name": "MAP侦察背包",
-        "price": 4.4,
-        "desc": "推荐背包"
-      }
-    ],
-    "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 55.4,
-    "hotScore": 50,
-    "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
-  },
-  {
-    "name": "M7 热门配装",
-    "scenario": "绝密",
-    "map": [
-      "大坝",
-      "长弓溪谷",
-      "航天基地",
-      "巴克什"
-    ],
-    "weapons": [
-      {
-        "name": "M7",
-        "price": 37.8,
-        "desc": "全网实时热门改枪码",
-        "code": "6ID28SK09NQFMIL0O8SAF"
-      }
-    ],
-    "armors": [
-      {
-        "name": "四级甲",
-        "price": 18.0,
-        "desc": "推荐防具"
-      }
-    ],
-    "helmets": [
-      {
-        "name": "GT1战术头盔",
-        "price": 8.0,
-        "desc": "推荐头盔"
-      }
-    ],
-    "backpacks": [
-      {
         "name": "强袭战术背心",
         "price": 3.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自www.18183.com的实时热门方案",
-    "totalPrice": 92.0,
+    "totalPrice": 105.0,
     "hotScore": 50,
     "source": "www.18183.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   },
   {
     "name": "网络热门方案",
     "scenario": "卡战备",
     "map": [
-      "大坝",
+      "航天基地",
+      "长弓溪谷",
       "巴克什"
     ],
     "weapons": [
@@ -1940,34 +1956,34 @@
         "name": "未知枪械",
         "price": 18.0,
         "desc": "全网实时热门改枪码",
-        "code": "1817915337615945874"
+        "code": "2717916190814097246"
       }
     ],
     "armors": [
       {
-        "name": "DT-AVS防弹衣",
-        "price": 15.0,
+        "name": "射手战术背心",
+        "price": 5.0,
         "desc": "推荐防具"
       }
     ],
     "helmets": [
       {
-        "name": "户外棒球帽",
-        "price": 3.4,
+        "name": "4级听力头戴",
+        "price": 5.0,
         "desc": "推荐头盔"
       }
     ],
     "backpacks": [
       {
-        "name": "野战背包",
-        "price": 3.0,
+        "name": "战术快拆背包",
+        "price": 4.0,
         "desc": "推荐背包"
       }
     ],
     "features": "来自cs.52pk.com的实时热门方案",
-    "totalPrice": 51.4,
+    "totalPrice": 44.0,
     "hotScore": 50,
     "source": "cs.52pk.com",
-    "updateTime": "2026-10-09 08:16"
+    "updateTime": "2026-10-10 07:58"
   }
 ]
